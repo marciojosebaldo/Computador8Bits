@@ -1671,20 +1671,6 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "{slash}RESET" (shape input) (at 259.08 22.86 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 9cd8d690-3d5e-4685-9ed2-fb9098440e43)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 249.0192 22.86 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "RESET" (shape input) (at 259.08 27.94 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid a293cafa-ec93-495d-ae88-0b87933602cd)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 250.3497 27.94 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "CLOCK" (shape output) (at 255.27 127 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid b232928b-1b68-4f63-bf60-5cf2038af1d2)
@@ -2082,36 +2068,6 @@
       (project "ProgramCounter"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR07") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x01_Female") (at 264.16 27.94 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 2802dd49-1d65-47b0-bc21-2e760f5d17ad)
-    (property "Reference" "RESET1" (at 269.24 27.94 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn_01x01_Female" (at 263.525 25.4 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" (at 264.16 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 264.16 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d04b8c07-66ac-4cc8-8aa1-ac248546a852))
-    (instances
-      (project "Clock Circuit"
-        (path "/4e4768fd-52f0-4853-bca6-f45a0aebc6bd"
-          (reference "RESET1") (unit 1)
-        )
-      )
-      (project "ProgramCounter"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-          (reference "RESET1") (unit 1)
         )
       )
     )
@@ -2586,36 +2542,6 @@
       (project "ProgramCounter"
         (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
           (reference "#PWR0110") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Connector:Conn_01x01_Female") (at 264.16 22.86 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6c030212-da3c-4394-9450-ca0518798f50)
-    (property "Reference" "/RESET1" (at 269.24 22.86 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "Conn_01x01_Female" (at 263.525 20.32 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Vertical" (at 264.16 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 264.16 22.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid bd8395ab-b7b6-4e16-bb1e-c70efaf101a3))
-    (instances
-      (project "Clock Circuit"
-        (path "/4e4768fd-52f0-4853-bca6-f45a0aebc6bd"
-          (reference "/RESET1") (unit 1)
-        )
-      )
-      (project "ProgramCounter"
-        (path "/9538e4ed-27e6-4c37-b989-9859dc0d49e8"
-          (reference "/RESET1") (unit 1)
         )
       )
     )
